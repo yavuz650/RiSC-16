@@ -34,22 +34,3 @@ end
 assign address_out = address_register;
 
 endmodule
-
-
-/*always @(posedge clk0)
-begin
-	if(!reset)
-	begin
-		address_register <= 0;
-		counter <= 0;
-	end
-	else if(counter != (wait_cycle))
-	begin
-		counter <= counter+1;
-	end
-	else
-	begin
-		address_register <= address_in;
-		counter <= 0;
-	end
-	*/
