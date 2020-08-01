@@ -2,8 +2,8 @@
 ## by Yavuz Selim Tozlu
 
 #begin
-	lw 		r1,r0,a #r1=a , multiplicand
-	lw 		r2,r0,b #r2=b , multiplier
+	lw 	r1,r0,a #r1=a , multiplicand
+	lw 	r2,r0,b #r2=b , multiplier
 	addi 	r5,r0,0
 	
 	beq 	r0,r1,done #zero detected
